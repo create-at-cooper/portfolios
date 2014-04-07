@@ -16,10 +16,11 @@ body {
 	line-height: 200px;
 	text-align: center;
 	background: url(../img/cooper-animation.gif) center center no-repeat;
+	z-index: 5;
 }
 
 .overlay {
-	height: 200px;
+	height: 100%;
 	width: 100%;
 	background-color: rgba(0,0,0,0.5);
 }
@@ -37,20 +38,12 @@ body {
 .web-img {
 	height: 270px;
 	width: 100%;
+	transition: -webkit-filter 0.4s;
 }
 
-.web-img > .overlay {
-	height: 100%;
-	width: 480px;
-	margin-left: 50%;
-	-webkit-transform: translate(-50%,0%);
-	background-color: rgba(0,0,0,0);
-	transition: background-color 0.4s;
-}
-
-.web-img > .overlay:hover {
-	background-color: rgba(0,0,0,0.5);
-	transition: background-color 0.4s;
+.web-img:hover {
+	-webkit-filter: brightness(50%);
+	transition: -webkit-filter 0.4s;
 }
 
 #sharang > a > .web-img {
@@ -99,7 +92,7 @@ body {
 }
 
 .footer {
-	height: 100px;
+	min-height: 100px;
 	width: 100%;
 	background-color: rgba(0,0,0,0.5);
 	color: white;
