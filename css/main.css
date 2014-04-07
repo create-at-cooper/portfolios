@@ -41,7 +41,7 @@ body {
 
 .web-img > .overlay {
 	height: 100%;
-	width: 470px;
+	width: 480px;
 	margin-left: 50%;
 	-webkit-transform: translate(-50%,0%);
 	background-color: rgba(0,0,0,0);
@@ -65,7 +65,45 @@ body {
 	background: url(../img/jon.png) center center no-repeat;
 }
 
+#nick > a > .web-img {
+	background: url(../img/nick.png) center center no-repeat;
+}
+
+#peter > a > .web-img {
+	background: url(../img/peter.png) center center no-repeat;
+}
+
+#hadar > a > .web-img {
+	background: url(../img/hadar.png) center center no-repeat;
+}
+
+#julian > a > .web-img {
+	background: url(../img/julian.png) center center no-repeat;
+}
+
+#polina > a > .web-img {
+	background: url(../img/polina.png) center center no-repeat;
+}
+
+#fan > a > .web-img {
+	background: url(../img/fan.png) center center no-repeat;
+}
+
+#kenman > a > .web-img {
+	background: url(../img/kenman.png) center center no-repeat;
+}
+
 .web-title {
 	text-align: center;
 	font-size: 20px;
+}
+
+.footer {
+	height: 100px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	line-height: 100px;
 }
