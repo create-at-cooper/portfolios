@@ -12,12 +12,31 @@ body {
 	cursor: default;
 	font-size: 100px;
 	color: white;
-	height: 200px;
+	height: 100px;
 	width: 100%;
-	line-height: 200px;
+	line-height: 100px;
 	text-align: center;
-	background: url(../img/cooper-animation.gif) center center no-repeat;
 	z-index: 5;
+}
+
+.title:before,
+.title:after {
+	content: '';
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	top: 0;
+	z-index: -5;
+}
+
+.title:before {
+	background: url(../img/cooper-animation.gif) center center no-repeat;
+	left: 0;
+}
+
+.title:after {
+	background: url(../img/cooper-animation.gif) center center no-repeat;
+	right: 0;
 }
 
 .overlay {
@@ -85,6 +104,10 @@ body {
 
 #kenman > a > .web-img {
 	background: url(../img/kenman.png) center center no-repeat;
+}
+
+#mike > a > .web-img {
+	background: url(../img/mike.png) center center no-repeat;
 }
 
 .web-title {
