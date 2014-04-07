@@ -5,6 +5,7 @@
 
 body {
 	font-family: 'gridnik';
+	background: url(../img/background.png);
 }
 
 .title {
