@@ -58,6 +58,8 @@ body {
 .web-img {
 	height: 270px;
 	width: 100%;
+	-webkit-filter: brightness(100%);
+	-webkit-backface-visibility: hidden;
 	transition: -webkit-filter 0.4s;
 }
 
