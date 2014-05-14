@@ -70,6 +70,10 @@ body {
 	background: url(../img/sharang.png) center center no-repeat;
 }
 
+#pasty > a > .web-img {
+	background: url(../img/pasty.png) center center no-repeat;
+}
+
 #eric > a > .web-img {
 	background: url(../img/eric.png) center center no-repeat;
 }
@@ -110,6 +114,46 @@ body {
 	background: url(../img/mike.png) center center no-repeat;
 }
 
+#gerard > a > .web-img {
+	background: url(../img/gerard.png) center center no-repeat;
+}
+
+#jenna > a > .web-img {
+	background: url(../img/jenna.png) center center no-repeat;
+}
+
+#ben > a > .web-img {
+	background: url(../img/ben.png) center center no-repeat;
+}
+
+#jacqueline > a > .web-img {
+	background: url(../img/jacqueline.png) center center no-repeat;
+}
+
+#alex > a > .web-img {
+	background: url(../img/alex.png) center center no-repeat;
+}
+
+#matt > a > .web-img {
+	background: url(../img/matt.png) center center no-repeat;
+}
+
+#petern > a > .web-img {
+	background: url(../img/petern.png) center center no-repeat;
+}
+
+#jay > a > .web-img {
+	background: url(../img/jay.png) center center no-repeat;
+}
+
+#kevin > a > .web-img {
+	background: url(../img/kevin.png) center center no-repeat;
+}
+
+#jackie > a > .web-img {
+	background: url(../img/jackie.png) center center no-repeat;
+}
+
 .web-title {
 	text-align: center;
 	font-size: 20px;
@@ -123,4 +167,75 @@ body {
 	font-size: 40px;
 	text-align: center;
 	line-height: 100px;
+}
+
+.ribbon-wrapper-1st {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  z-index:100;
+
+}
+
+.ribbon-1st {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #FFD700;
+  color: gray;
+}
+
+.ribbon-1st:before {
+  left: 0;
+}
+.ribbon-1st:after {
+  right: 0;
+}
+
+.ribbon-wrapper-2nd {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  z-index:100;
+}
+
+.ribbon-2nd {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #C0C0C0;
+  color: white;
+}
+
+.ribbon-2nd:before {
+  left: 0;
+}
+.ribbon-2nd:after {
+  right: 0;
 }
